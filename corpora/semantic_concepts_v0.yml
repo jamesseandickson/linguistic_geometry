@@ -1,0 +1,205 @@
+corpus_id: semantic_concepts_v0
+language: en
+type: concept_clusters
+version: 0
+
+entries:
+  - domain: "emotion"
+    subdomain: "valence_mixed"
+    concept: "affective_valence_mixed"
+    expressions: [
+      "happy", "joyful", "content", "pleased", "cheerful",
+      "delighted", "ecstatic", "satisfied", "glad", "hopeful",
+      "sad", "unhappy", "downcast", "blue", "miserable",
+      "depressed", "heartbroken", "gloomy", "melancholic", "desolate"
+    ]
+
+  - domain: "emotion"
+    subdomain: "arousal_mixed"
+    concept: "emotion_arousal_mixed"
+    expressions: [
+      "calm", "relaxed", "tranquil", "serene", "still",
+      "restless", "tense", "anxious", "keyed up", "nervous",
+      "agitated", "excited", "wired", "pumped", "energised",
+      "hyper", "sleepy", "drowsy", "sluggish", "lethargic"
+    ]
+
+  - domain: "perception"
+    subdomain: "temperature_subjective"
+    concept: "subjective_temperature_scale"
+    expressions: [
+      "freezing", "icy", "bitter", "chilly", "cold",
+      "cool", "crisp", "mild", "temperate", "warm",
+      "toasty", "balmy", "hot", "sweltering", "boiling",
+      "scorching", "blistering", "lukewarm", "tepid", "oppressive"
+    ]
+
+  - domain: "physical_extent"
+    subdomain: "size"
+    concept: "size_extent_scale"
+    expressions: [
+      "tiny", "minuscule", "small", "compact", "little",
+      "modest", "medium", "average", "sizable", "large",
+      "big", "huge", "enormous", "massive", "gigantic",
+      "colossal", "immense", "vast", "spacious", "bulky"
+    ]
+
+  - domain: "motion"
+    subdomain: "speed"
+    concept: "motion_speed_scale"
+    expressions: [
+      "motionless", "still", "sluggish", "slow", "unhurried",
+      "steady", "brisk", "quick", "fast", "speedy",
+      "rapid", "swift", "racing", "hurtling", "zooming",
+      "crawling", "ambling", "jogging", "sprinting", "tearing along"
+    ]
+
+  - domain: "social_structure"
+    subdomain: "status_role"
+    concept: "social_status_roles"
+    expressions: [
+      "peasant", "worker", "assistant", "employee", "staff",
+      "junior", "colleague", "senior", "manager", "boss",
+      "supervisor", "director", "executive", "chief", "leader",
+      "ruler", "monarch", "president", "chair", "overseer"
+    ]
+
+  - domain: "social_structure"
+    subdomain: "power"
+    concept: "power_dynamics_language"
+    expressions: [
+      "powerless", "weak", "vulnerable", "dependent", "subordinate",
+      "obedient", "compliant", "modest", "confident", "assertive",
+      "dominant", "powerful", "influential", "authoritative", "intimidating",
+      "controlling", "overbearing", "oppressive", "tyrannical", "unstoppable"
+    ]
+
+  - domain: "epistemic"
+    subdomain: "certainty"
+    concept: "epistemic_certainty_scale"
+    expressions: [
+      "certain", "sure", "convinced", "confident", "clear",
+      "probable", "likely", "plausible", "unsure", "uncertain",
+      "doubtful", "skeptical", "suspicious", "questioning", "ambivalent",
+      "improbable", "unlikely", "impossible", "obvious", "ambiguous"
+    ]
+
+  - domain: "quantity"
+    subdomain: "amount"
+    concept: "quantity_magnitude_mixed"
+    expressions: [
+      "none", "zero", "scarce", "little", "few",
+      "some", "several", "many", "plenty", "abundant",
+      "countless", "endless", "a tiny bit", "a handful", "a lot",
+      "loads", "heaps", "tonnes", "overflowing", "packed"
+    ]
+
+  - domain: "time"
+    subdomain: "order"
+    concept: "temporal_order_terms"
+    expressions: [
+      "before", "earlier", "previously", "once", "formerly",
+      "already", "now", "currently", "presently", "immediately",
+      "soon", "after", "later", "afterward", "eventually",
+      "finally", "ultimately", "once again", "from then on", "in the end"
+    ]
+
+  - domain: "time"
+    subdomain: "cycle"
+    concept: "time_of_day_cycle"
+    expressions: [
+      "dawn", "daybreak", "sunrise", "early morning", "late morning",
+      "noon", "midday", "afternoon", "midafternoon", "evening",
+      "sunset", "dusk", "twilight", "night", "midnight",
+      "late night", "pre-dawn", "first light", "golden hour", "witching hour"
+    ]
+
+  - domain: "space"
+    subdomain: "vertical"
+    concept: "vertical_spatial_terms"
+    expressions: [
+      "below", "under", "underneath", "beneath", "down",
+      "low", "lower", "bottom", "ground-level", "level",
+      "up", "above", "over", "on top", "high",
+      "higher", "top", "ceiling-level", "skyward", "overhead"
+    ]
+
+  - domain: "space"
+    subdomain: "horizontal"
+    concept: "horizontal_spatial_terms"
+    expressions: [
+      "left", "right", "centre", "middle", "edge",
+      "far left", "far right", "near", "far", "beside",
+      "next to", "between", "among", "around", "ahead",
+      "behind", "in front", "off to the side", "sideways", "across"
+    ]
+
+  - domain: "space"
+    subdomain: "distance"
+    concept: "spatial_distance_terms"
+    expressions: [
+      "touching", "adjacent", "close", "nearby", "near",
+      "within reach", "a short way", "not far", "far", "distant",
+      "remote", "faraway", "miles off", "out of reach", "out of sight",
+      "just here", "right here", "right there", "over there", "way over there"
+    ]
+
+  - domain: "social_style"
+    subdomain: "politeness"
+    concept: "politeness_greetings_and_appeals"
+    expressions: [
+      "hey", "hi", "hello", "good morning", "good afternoon",
+      "good evening", "yo", "hiya", "dear sir", "dear madam",
+      "excuse me", "pardon me", "sorry", "my apologies", "with respect",
+      "if you don't mind", "would you kindly", "please", "pretty please", "begging you"
+    ]
+
+  - domain: "social_style"
+    subdomain: "formality"
+    concept: "formality_lexical_variants"
+    expressions: [
+      "kids", "children", "offspring", "dad", "father",
+      "mum", "mother", "friend", "acquaintance", "colleague",
+      "sir", "madam", "mate", "buddy", "associate",
+      "partner", "spouse", "husband", "wife", "companion"
+    ]
+
+  - domain: "modification"
+    subdomain: "intensity"
+    concept: "general_intensity_modifiers"
+    expressions: [
+      "slightly", "a bit", "somewhat", "rather", "fairly",
+      "pretty", "quite", "very", "really", "highly",
+      "extremely", "utterly", "absolutely", "totally", "completely",
+      "barely", "hardly", "almost", "nearly", "practically"
+    ]
+
+  - domain: "modality"
+    subdomain: "obligation_permission"
+    concept: "obligation_and_permission_modals"
+    expressions: [
+      "must", "have to", "need to", "ought to", "should",
+      "supposed to", "expected to", "required to", "obliged to", "can",
+      "may", "might", "could", "allowed to", "free to",
+      "forbidden to", "not allowed to", "must not", "shouldn't", "can't"
+    ]
+
+  - domain: "modality"
+    subdomain: "possibility"
+    concept: "possibility_and_likelihood_adverbs"
+    expressions: [
+      "certainly", "definitely", "surely", "probably", "likely",
+      "possibly", "perhaps", "maybe", "conceivably", "arguably",
+      "apparently", "seemingly", "reportedly", "supposedly", "unlikely",
+      "improbable", "barely possible", "practically impossible", "no way", "never"
+    ]
+
+  - domain: "evidentiality"
+    subdomain: "source_of_information"
+    concept: "evidence_source_expressions"
+    expressions: [
+      "I saw", "I heard", "they said", "it seems", "it appears",
+      "I think", "I guess", "I know", "I believe", "I doubt",
+      "rumour has it", "according to reports", "research shows", "data suggests", "everyone says",
+      "nobody says", "so they claim", "I'm told", "I was informed", "word is"
+    ]
