@@ -58,41 +58,46 @@ And:
 ## 📁 Project Structure
 
 ```
-
 linguistic_geometry/
 │
 ├── corpora/
-│   ├── semantic_concepts_v0        # concept sets
-│   └── loader.py                   # corpus loader
+│   ├── semantic_concepts_v0.yml    # ✅ concept sets (emotion, time, space, etc.)
+│   └── loader.py                   # ✅ corpus loader with train/test split
 │
 ├── encoders/
-│   ├── base.py
-│   ├── toy_identity.py
-│   ├── llm_openai.py
-│   └── llm_other.py
+│   ├── base.py                     # ✅ encoder interface
+│   ├── sentence_transformer.py    # ✅ sentence-transformers implementation
+│   └── test_basic.py               # ✅ encoder tests
 │
 ├── geometries/
-│   ├── base.py
-│   ├── euclidean.py
-│   ├── hyperbolic.py
-│   ├── spinor.py
-│   └── sheaf_stub.py
+│   ├── base.py                     # ✅ geometry interface
+│   ├── euclidean.py                # ✅ standard euclidean space
+│   ├── scalar.py                   # ✅ 1D line geometry
+│   ├── hyperbolic.py               # 🔜 hierarchical structure (planned)
+│   ├── spinor.py                   # 🔜 phase/rotation geometry (planned)
+│   └── sheaf.py                    # 🔮 discourse consistency (future)
 │
-├── tasks/
-│   ├── base.py
-│   ├── concept_cluster.py
-│   ├── cross_concept.py
-│   └── compression_probe.py
+├── evaluation/
+│   ├── train_test_split.py         # 🔜 80/20 split of concept embeddings
+│   ├── geometry_evaluator.py      # 🔜 fit on train, validate on test
+│   ├── metrics.py                  # 🔜 reconstruction error, entropy, compression
+│   └── results_tracker.py          # 🔜 per-geometry, per-category results
 │
-├── core/
-│   ├── config.py
-│   ├── registry.py
-│   └── experiment.py
+├── notebooks/
+│   ├── 01_corpus_exploration       # ✅ corpus analysis
+│   ├── 02_encoder_exploration      # ✅ encoder testing
+│   └── 03_geometry_comparison      # 🔜 train/test geometry evaluation
 │
-├── metrics.py
-└── notebooks/
+├── semantic_atlas.md               # ✅ research notes & findings
+├── requirements.txt                # ✅ dependencies
+└── README.md                       # ✅ this file
 
 ```
+
+**Legend:**
+- ✅ Implemented
+- 🔜 Planned (near-term)
+- 🔮 Future exploration
 
 ---
 

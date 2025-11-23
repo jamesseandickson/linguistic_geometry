@@ -3,42 +3,36 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.so
-.Python
+
+# Distribution / packaging
 build/
-develop-eggs/
 dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
 *.egg-info/
-.installed.cfg
 *.egg
 
 # Virtual environments
-venv/
-env/
-ENV/
+.env
 .venv
+env/
+venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
 
 # IDE
 .vscode/
+!.vscode/extensions.json
 .idea/
 *.swp
 *.swo
 *~
+
+# macOS
 .DS_Store
+._*
 
-# Jupyter
-.ipynb_checkpoints/
-*.ipynb_checkpoints
-
-# Data and models
+# Data and models (common for ML research)
 *.pt
 *.pth
 *.ckpt
@@ -55,8 +49,7 @@ outputs/
 *.log
 logs/
 
-# Environment
-.env
+# Environment files
 .nao.env
 
 # Testing
